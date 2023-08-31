@@ -4,13 +4,14 @@
 /* Basic page style resets */
 body{
   box-sizing: border-box;
-background-color:yellow;
+background-color:#efe5da;
+
 }
 
 .progress-bar{
 position: fixed;
 width: 100%;
-height:20px;  
+height:10px;  
 }
 
 #progress{
@@ -20,11 +21,22 @@ background-color:#fd1d1d;
 }
 
 header{
+padding:10px;
 width:50%;
 height:100%;
-display:flex;
-justify-content:center; 
-text-align:center;
-background-color:aqua;
+display:grid;
+ align-items: center;
+   justify-items: center;
+background-color:#d1b290;
 margin:auto;
+border: 1px solid black;
+
+}
+
+.padre{
+margin:auto;
+ padding:15px;
+border: 1px solid black;
+margin-bottom:15px;
+  
 }
