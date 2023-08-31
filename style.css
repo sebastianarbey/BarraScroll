@@ -23,5 +23,8 @@ header{
 width:50%;
 height:100%;
 display:flex;
-justify-conten:center;  
+justify-content:center; 
+text-align:center;
+background-color:aqua;
+margin:auto;
 }
