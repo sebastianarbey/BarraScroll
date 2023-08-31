@@ -1,7 +1,9 @@
-window.addEventlistener("load", () =>{
-const progress = document.getElementById("progress");
+window.addEventListener('load', () =>{
+const progress = document.getElementById('progress');
+requestAnimationFrame(update);
 })
 
-function update(){
-progress.style.width = ´${((window.scrollY) / (document.body.scrollHeight - window.innerHeigth) *)}
+function update() {
+progress.style.width = `${((window.scrollY) / (document.body.scrollHeight - window.innerHeigth) *100)}%`; 
+requestAnimationFrame(update);
 }
