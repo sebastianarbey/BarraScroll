@@ -4,6 +4,6 @@ requestAnimationFrame(update);
 })
 
 function update() {
-progress.style.width = `${((window.scrollY) / (document.body.scrollHeight - window.innerHeigth) *100)}%`; 
+ progress.style.width = `${((window.scrollY) / (document.body.scrollHeight - window.innerHeigth) * 100)}%`; 
 requestAnimationFrame(update);
 }

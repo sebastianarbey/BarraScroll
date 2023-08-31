@@ -1,18 +1,10 @@
 
-:root {
-  --color-bg: #69F7BE;
-  --color-text-main: #000000;
-  --color-primary: #FFFF00;
-  --wrapper-height: 87vh;
-  --image-max-width: 300px;
-  --image-margin: 3rem;
-  --font-family: "HK Grotesk";
-  --font-family-header: "HK Grotesk";
-}
+
 
 /* Basic page style resets */
-* {
+body{
   box-sizing: border-box;
+background-color:yellow;
 }
 
 .progress-bar{
@@ -21,8 +13,8 @@ width: 100%;
 height:10px;  
 }
 
-.progress{
-width:0%;
+#progress{
+width:100%;
 height:100%;
-background-color:red;
+background-color:blue;
 }
